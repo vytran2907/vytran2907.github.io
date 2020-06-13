@@ -262,6 +262,7 @@ body{
 	width: 80%;
 	padding-top: 5%;
 	margin: 0px auto;
+	clear:both;
 }
 .Page-3-right{
 	width:40%;
@@ -372,4 +373,24 @@ body{
 	border-radius: 10px;
 	background-color: #e8505b;
 	color: white;
+}
+.Page-4{
+	width:100%;
+	position: relative;
+}
+.hinh-3{
+	width:100%;
+}
+.location-icon{
+	width:3%;
+	position: absolute;
+	top:20%;
+	left:30%;
+	animation: icon 1.5s;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+@keyframes icon{
+	0%{ top:20%;}
+	100%{ top:25%;}
 }

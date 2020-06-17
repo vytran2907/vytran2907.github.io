@@ -35,6 +35,7 @@ body{
 	width:100%;
 }
 .menu-1{
+	transition-duration: 1s;
 	width:50%;
 /*	background-color:red;*/
 	float: left;
@@ -67,6 +68,7 @@ body{
 	color: white;
 }
 .login{
+	transition-duration: 1s;
 	float:right;
 	width:30%;
 	margin-right:5%;
@@ -104,6 +106,7 @@ body{
 	float: left;
 }
 .text{
+	transition-duration: 1s;
 /*	background-color: aqua;*/
 	width: 40%;
 	margin-top: 5%;

@@ -1,0 +1,47 @@
+@charset "utf-8";
+.body {
+	font-size: 1em;
+}
+.banner1 {
+	background-image: url(Src/bg-masthead.jpg);
+	background-size: cover;
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+.text-color {
+	color: white;
+}
+.icon {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.icon-posi{
+    width: 100%;
+}
+.icon-size {
+	font-size: 500% !important;
+}
+.text-size {
+	font-size: 18px;
+}
+.fully {
+	width: 70%;
+	margin-left: 12%;
+}
+.feebback-1 {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.banner2 {
+	background-image: url(Src/bg-masthead.jpg);
+	background-size: cover;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+.footer {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.icon-2 {
+	font-size: 300%;
+}

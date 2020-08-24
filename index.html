@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Bai-6</title>
-<link rel="stylesheet" type="text/css" href="Style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 <!-- CSS only -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
@@ -32,7 +32,7 @@
 	<!--scrollspy-->
 	<nav id="navbar-spy" class="navbar navbar-light bg-light fixed-top px-5 navbar-inverse">
   <a class="navbar-brand" href="#">Vy Tran</a>
-  <ul class="nav nav-pills">
+  <ul class="nav nav-pills fix-media">
     <li class="nav-item">
       <a class="nav-link" href="#aboutme">About Me</a>
     </li>
@@ -55,34 +55,34 @@
 		  </div>
 		</div>
 		<div class="row">
-			<div class="col-6 text-white">
+			<div class="col-12 text-white display-1">
 				<div class="text-decorate">
 				<h1>Hello !</h1>
 				<h1 class="display-3 font-weight-normal">I'm <span id="Type-Effect"></span></h1>
 				<p>A Graphic Designer from Viet Nam</p>
-				<button class="btn btn-outline-light font-weight-bold btn-fix">Hire Me!</button>
+				<a href="#contactme"><button class="btn btn-large btn-outline-light font-weight-bold btn-fix display-1" >Hire Me!</button></a>
 				</div>
 			</div>
-			<div class="col-6">
+			<div class="col-md-6">
 				<img src="img/Circle.png" width="90%" class="fix-position-1 fade-in-right">
-				<img src="img/1.png" width="73%" class="fix-position-2" data-aos="fade-up">
+				<!--<img src="img/1.png" width="73%" class="fix-position-2" data-aos="fade-up">-->
 			</div>
 		</div>
 	</div>
 	<!--introduce-->
 	<div class="container-fluid pt-5" id="aboutme">
 		<div class="row no-gutters">
-			<div class="col-6">
+			<div class="col-md-6 col-12">
 			<img src="img/Asset 5.png" width="100%" data-aos="fade-up-right" data-aos-duration="1000">
 		</div>
-		<div class="col-1 pt-5 pl-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+		<div class="col-md-1 col-5 pt-5 pl-5 text-fix" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
 			<div class="line"></div>
 			<h4 class="vertical-text text-muted">About me</h4>
 		</div>
 		
 		<img src="img/Cir-dark.png" width="20%" class="circle-dark" data-aos="fade-down-left" data-aos-duration="1000">
-		<div class="col-5 my-auto">
-			<div class="pt-5 col-10 resize-text">
+		<div class="col-md-5 col-12 my-auto">
+			<div class="pt-5 col-10 resize-text ">
 				<h1>Need Creative Design?</h1>
 				<h1>I can Help You!</h1>
 				<p>Graphic working in design field for 2 years so far, specialized in Branding and digital designs. These are the words we live by in everything we do. Every story we tell, every brand we build, and every interaction we create must not only look beautiful. beautifully, too.</p>
@@ -107,17 +107,17 @@
 	<!--my skill-->
 	<div class="container-fluid pt-5" id="myskill">
 		<div class="row no-gutters">
-			<div class="col-1 pl-5" data-aos="fade-down" data-aos-duration="1000">
+			<div class="col-md-1 col-5 pl-5 trans" data-aos="fade-down" data-aos-duration="1000">
 				<div class="line"></div>
 			<h4 class="vertical-text text-muted">My Skill</h4>
 			</div>
-			<div class="col-5">
+			<div class="col-md-5 col-10 resize-text pt-md-0 pt-5">
 				<h1 class="col-8">What My Design Skills Included</h1>
-				<p class="col-10">
+				<p class="col-md-10 col-12">
 					These are the words we live by in everything we do. Every story we tell, every brand we build, and every interaction we create must not only look beautiful.
 				</p>
 				<!--skillbar-->
-				 <div id="skill-bar-wrapper" class="col-10">
+				 <div id="skill-bar-wrapper" class="col-md-10 col-12">
 						Photoshop<span style="float:right;">80%</span>
 					  <div class="skillbar-container clearfix" data-percent="80%">
 						<div class="skills" style="background:#FECE51;"></div>
@@ -144,7 +144,7 @@
               		  </div>
 				</div>
 			</div>
-			<div class="col-6 row justify-content-around" >
+			<div class="col-md-6 col-12 row justify-content-around center-div" >
 				<div class="col-6 m-3 bg-color text-center row parent" data-aos="flip-down" data-aos-duration="1000">
 					<div class="col-12 my-auto zoom">
 						<i class="fa fa-crop"></i>
@@ -187,18 +187,18 @@
             <div id="projects" class="text-ul text-center">
                 <h1 class="heading">All Projects</h1>
                 <ul id="gallery" class="row is-table-row">
-                    <li class="web-design illustration branding col-4 p-4"><a href="#"><img src="img/Mobile-3.png" class="rounded" width="100%"></a></li>
-                    <li class="branding social-post col-4 p-4"><a href="#"><img src="img/mockup-3.jpg" width="100%" class="rounded"></a></li>
-                    <li class="web-design illustration col-4 p-4"><a href="#"><img src="img/2020-08-24_054858.png" width="100%" class="rounded"></a></li>
-                    <li class="web-design col-4 p-4"><a href="#"><img src="img/2020-08-24_052013.png" width="100%" class="rounded"></a></li>
-                    <li class="web-design col-4 p-4"><a href="#"><img src="img/2020-08-24_052200.png" width="100%" class="rounded"></a></li>
-                    <li class="branding social-post col-4 p-4"><a href="#"><img src="img/2.jpg" width="100%" class="rounded"></a></li>
-                    <li class="branding social-post col-4 p-4"><a href="#"><img src="img/3-300x300.jpg" width="100%" class="rounded"></a></li>
-                    <li class="illustration branding col-4 p-4"><a href="#"><img src="img/UpUp1K.jpg" width="100%" class="rounded"></a></li>
-					<li class="illustration social-post col-4 p-4"><a href="#"><img src="img/Banner-2.png" width="100%" class="rounded"></a></li> 
-					<li class="illustration social-post col-4 p-4"><a href="#"><img src="img/Done-23.png" width="100%" class="rounded"></a></li>
-					<li class="illustration branding col-4 p-4"><a href="#"><img src="img/S.O.C-Trung-Thu-03.jpg" width="100%" class="rounded"></a></li>
-					<li class="illustration branding col-4 p-4"><a href="#"><img src="img/S.O.C-Tet-02.jpg" width="100%" class="rounded"></a></li>
+                    <li class="web-design illustration branding col-md-4 col-6 p-4"><a href="#"><img src="img/Mobile-3.png" class="rounded" width="100%"></a></li>
+                    <li class="branding social-post col-md-4 col-6 p-4"><a href="#"><img src="img/mockup-3.jpg" width="100%" class="rounded"></a></li>
+                    <li class="web-design illustration col-md-4 col-6 p-4"><a href="#"><img src="img/2020-08-24_054858.png" width="100%" class="rounded"></a></li>
+                    <li class="web-design col-md-4 col-6 p-4"><a href="#"><img src="img/2020-08-24_052013.png" width="100%" class="rounded"></a></li>
+                    <li class="web-design col-md-4 col-6 p-4"><a href="#"><img src="img/2020-08-24_052200.png" width="100%" class="rounded"></a></li>
+                    <li class="branding social-post col-md-4 col-6 p-4"><a href="#"><img src="img/2.jpg" width="100%" class="rounded"></a></li>
+                    <li class="branding social-post col-md-4 col-6 p-4"><a href="#"><img src="img/3-300x300.jpg" width="100%" class="rounded"></a></li>
+                    <li class="illustration branding col-md-4 col-6 p-4"><a href="#"><img src="img/UpUp1K.jpg" width="100%" class="rounded"></a></li>
+					<li class="illustration social-post col-md-4 col-6 p-4"><a href="#"><img src="img/Banner-2.png" width="100%" class="rounded"></a></li> 
+					<li class="illustration social-post col-md-4 col-6 p-4"><a href="#"><img src="img/Done-23.png" width="100%" class="rounded"></a></li>
+					<li class="illustration branding col-md-4 col-6 p-4"><a href="#"><img src="img/S.O.C-Trung-Thu-03.jpg" width="100%" class="rounded"></a></li>
+					<li class="illustration branding col-md-4 col-6 p-4"><a href="#"><img src="img/S.O.C-Tet-02.jpg" width="100%" class="rounded"></a></li>
                 </ul>
             </div>
             <!-- modal gallery -->
@@ -214,30 +214,30 @@
         </div>
 	<!--get in touch-->
 	<div class="container mt-5" id="contactme">
-	<div class="text-center col-9 mx-auto">
-		<h3 class="font-weight-bold">Get In Tounch</h3>
+	<div class="text-center col-md-9 col-12 mx-auto resize-text">
+		<h3 class="font-weight-bold">Get In Touch</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ul</p>
 	</div>
-	<div class="row justify-content-around mt-5 text-center">
-		<div class="col-2 text-fix">
+	<div class="row justify-content-around mt-5 text-center icon-resize">
+		<div class="col-md-2 col-12 text-fix">
 			<i class="fa fa-user-circle-o "></i>
 			<a href="#"><p>0934.919.014</p></a>
 		</div>
-		<div class="col-2 text-fix">
+		<div class="col-md-2 col-12 text-fix">
 			<i class="fa  fa-telegram  "></i>
 			<a href="#"><p>tntvy2907@gmail.com</p></a>
 		</div>
-		<div class="col-2 text-fix">
+		<div class="col-md-2 col-12 text-fix">
 			<i class="fa fa-gg-circle  "></i>
 			<a href="#"><p>leolee2907@gmail.com</p></a>
 		</div>
 	</div>
 		<form class="col-12 mx-auto mt-5 row">
-	<div class="col-6">
+	<div class="col-md-6 col-12">
   <label for="fname">Name</label>
   <input type="text" id="fname" name="fname" class="col-12 input">
 		</div>
-	<div class="col-6">
+	<div class="col-md-6 col-12">
   <label for="lname">Email</label>
   <input type="text" id="lname" name="lname" class="col-12">
 		</div>
@@ -251,7 +251,7 @@
 </div>
 	<!--footer-->
 <div class="container-fluid bg-dark mt-5">
-	<div class="col-2 row justify-content-around mx-auto text-white pt-5">
+	<div class="col-md-3 col-7 row justify-content-around mx-auto text-white pt-5">
 		<div class="col-1">
 					<i class="fa fa-facebook"></i>
 				</div>
@@ -271,7 +271,7 @@
 					<i class="fa fa-chrome"></i>
 				</div>
 	</div>
-		<div class="col-12 text-center text-muted p-3">
+		<div class="col-12 text-center text-muted p-3 copyright">
 			<p>Copyright @2020 VyTran</p>
 		</div>
 	
@@ -314,7 +314,6 @@
 			backSpeed:100,
 			loop:true,
 });
-		
 	</script>
 	<!--skill bar-->
 	<script>
@@ -403,7 +402,6 @@
                     $(this).addClass(item);
                 }
             }
-            
         });
 	</script>
 	<!--AOS-->

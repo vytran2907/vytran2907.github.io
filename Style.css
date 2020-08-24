@@ -72,12 +72,16 @@
 	height:100vh;
 }
 .text-decorate{
-	padding-top: 35%;
-	padding-left: 20%;
+    position: absolute;
+    padding-top: 23%;
+    padding-left: 11%;
+    z-index: 2;
 }
 .fix-position-1{
 	position: absolute;
-	z-index: 0;
+    z-index: 0;
+    padding-top: 0;
+    margin-left: 100%;
 }
 
 .text-decorate p{
@@ -272,6 +276,7 @@ textarea{
 .btn-fix {
 	border: 2px solid white !important;
 	border-radius: 30px !important;
+    width: 150px;
 }
 .zoom {
 	transition: transform .2s;
@@ -280,6 +285,79 @@ textarea{
 .parent:focus .zoom{
 	transform: scale(1.15)
 }
-
-
+@media (max-width:768px){
+	.bg{
+		height:500px;
+	}
+    .fix-position-1{
+        width: 450px !important;
+        margin-left: 35%;
+    }
+    .text-decorate{
+        position: absolute;
+        padding-top: 15%;
+        padding-left: 20%;
+        z-index:2;
+    }
+    .scroll-downs{
+        display: none !important;
+    }
+}
+@media (max-width:415px){
+    .fix-position-1{
+        width: 350px !important;
+        margin-left: 35%;
+        margin-top:33%;
+    }
+    .text-decorate{
+        padding-top: 57%;
+        padding-left: 6%;
+    }
+    .text-decorate h1,p{
+        font-size:40px;
+    }
+    .btn-fix{
+        display:none !important;
+    }
+    #navbar-spy{
+        top:-136px !important;
+    }
+    .resize-text h1{
+        font-size: 20px;
+    }
+    .resize-text p{
+        font-size:15px;
+    }
+    .resize-text{
+        margin:0px auto;
+    }
+    .line{
+        position: absolute;
+	    border-top: 0.5px solid lightgrey;
+	    width: 120px;
+	    margin-top: 5%;
+        border-left: none !important;
+    }
+    .vertical-text {  
+	writing-mode: horizontal-tb !important;
+    transform:scale(1)!important;
+    margin-top: 10%;
+    }
+    .center-div{
+       display: none !important;
+    }
+    .filters{
+        display: none !important;
+    }
+    .icon-resize i{
+        font-size:30px !important;
+    }
+    .icon-resize p{
+        margin-bottom:10%;
+        font-size:15px !important;
+    }
+    .copyright p{
+        font-size:15px !important;
+    }
+}
 

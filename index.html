@@ -20,9 +20,33 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
   />
+<!--AOS-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body>
+<body  data-spy="scroll" data-target=".navbar" data-offset="50">
+	<!--backtotop-->
+	<button onClick="topFunction()" id="mybtn" title="back to top" class="btn btn-primary btn-decor">
+		<i class="fa fa-chevron-up" aria-hidden="true"></i>
+	</button>
+	<!--scrollspy-->
+	<nav id="navbar-spy" class="navbar navbar-light bg-light fixed-top px-5 navbar-inverse">
+  <a class="navbar-brand" href="#">Vy Tran</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#aboutme">About Me</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#myskill">My Skill</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" href="#myproject">My Project</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" href="#contactme">Contact Me</a>
+    </li>
+  </ul>
+</nav>	
 	<!--hello-->
 	<div class="container-fluid bg">
 		<div class="scroll-downs">
@@ -36,27 +60,27 @@
 				<h1>Hello !</h1>
 				<h1 class="display-3 font-weight-normal">I'm <span id="Type-Effect"></span></h1>
 				<p>A Graphic Designer from Viet Nam</p>
-				<button class="btn btn-outline-light font-weight-bold">Hire Me!</button>
+				<button class="btn btn-outline-light font-weight-bold btn-fix">Hire Me!</button>
 				</div>
 			</div>
 			<div class="col-6">
 				<img src="img/Circle.png" width="90%" class="fix-position-1 fade-in-right">
-				<img src="img/1.png" width="73%" class="fix-position-2 animate__animated animate__slideInUp">
+				<img src="img/1.png" width="73%" class="fix-position-2" data-aos="fade-up">
 			</div>
 		</div>
 	</div>
 	<!--introduce-->
-	<div class="container-fluid pt-5">
+	<div class="container-fluid pt-5" id="aboutme">
 		<div class="row no-gutters">
 			<div class="col-6">
-			<img src="img/Asset 5.png" width="100%">
+			<img src="img/Asset 5.png" width="100%" data-aos="fade-up-right" data-aos-duration="1000">
 		</div>
-		<div class="col-1 pt-5 pl-5">
+		<div class="col-1 pt-5 pl-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
 			<div class="line"></div>
-			<h4 class="vertical-text">About me</h4>
+			<h4 class="vertical-text text-muted">About me</h4>
 		</div>
 		
-		<img src="img/Cir-dark.png" width="20%" class="circle-dark animate__animated animate__fadeInDown">
+		<img src="img/Cir-dark.png" width="20%" class="circle-dark" data-aos="fade-down-left" data-aos-duration="1000">
 		<div class="col-5 my-auto">
 			<div class="pt-5 col-10 resize-text">
 				<h1>Need Creative Design?</h1>
@@ -81,11 +105,11 @@
 		</div>
 	</div>
 	<!--my skill-->
-	<div class="container-fluid pt-5">
+	<div class="container-fluid pt-5" id="myskill">
 		<div class="row no-gutters">
-			<div class="col-1 pl-5">
+			<div class="col-1 pl-5" data-aos="fade-down" data-aos-duration="1000">
 				<div class="line"></div>
-			<h4 class="vertical-text">My Skill</h4>
+			<h4 class="vertical-text text-muted">My Skill</h4>
 			</div>
 			<div class="col-5">
 				<h1 class="col-8">What My Design Skills Included</h1>
@@ -120,27 +144,27 @@
               		  </div>
 				</div>
 			</div>
-			<div class="col-6 row justify-content-around">
-				<div class="col-6 m-3 bg-color text-center row">
-					<div class="col-12 my-auto">
+			<div class="col-6 row justify-content-around" >
+				<div class="col-6 m-3 bg-color text-center row parent" data-aos="flip-down" data-aos-duration="1000">
+					<div class="col-12 my-auto zoom">
 						<i class="fa fa-crop"></i>
 						<h3 class="text-white">Graphic design</h3>	
 					</div>
 				</div>
-				<div class="col-4 m-3 bg-color text-center row">
-					<div class="col-12 my-auto">
+				<div class="col-4 m-3 bg-color text-center row parent" data-aos="flip-left" data-aos-duration="1000">
+					<div class="col-12 my-auto zoom">
 						<i class="fa fa-film"></i>
 						<h3 class="text-white">Animation</h3>	
 					</div>
 				</div>
-				<div class="col-4 m-3 bg-color text-center row"> 
-					<div class="col-12 my-auto">
+				<div class="col-4 m-3 bg-color text-center row parent" data-aos="flip-up" data-aos-duration="1000"> 
+					<div class="col-12 my-auto zoom">
 						<i class="fa fa-code"></i>
 						<h3 class="text-white">HTML/CSS</h3>	
 					</div>
 				</div>
-				<div class="col-6 m-3 bg-color text-center row">
-					<div class="col-12 my-auto">
+				<div class="col-6 m-3 bg-color text-center row parent" data-aos="flip-right" data-aos-duration="1000">
+					<div class="col-12 my-auto zoom">
 						<i class="fa fa-pencil"></i>
 						<h3 class="text-white">Drawing</h3>	
 					</div>
@@ -149,9 +173,9 @@
 		</div>
 	</div>
 	<!--filter-->
-        <div class="container portfolio section text-center pt-5">
+        <div class="container portfolio section text-center pt-5" id="myproject">
 			<nav class="filters">
-				<h3 class="text-black-50">Meet my projects</h3>
+				<h3 class="text-muted" data-aos="fade-down" data-aos-duration="1000"> Meet my projects</h3>
                 <ul>
                     <li class="current"><a href="#">All projects</a></li>
                     <li><a href="#">Web Design</a></li>
@@ -189,7 +213,7 @@
             </div>
         </div>
 	<!--get in touch-->
-	<div class="container mt-5" id="message">
+	<div class="container mt-5" id="contactme">
 	<div class="text-center col-9 mx-auto">
 		<h3 class="font-weight-bold">Get In Tounch</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ul</p>
@@ -225,6 +249,7 @@
 <button class="btn btn-outline-dark style-btn mx-auto mt-5">Send a Message</button>
 </form>
 </div>
+	<!--footer-->
 <div class="container-fluid bg-dark mt-5">
 	<div class="col-2 row justify-content-around mx-auto text-white pt-5">
 		<div class="col-1">
@@ -252,8 +277,35 @@
 	
 	</div>
 	<!--java-->
+	<!--backtotop-->
+	<script>
+	
+    //Get the button
+    var mybutton = document.getElementById("mybtn");
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    
+	</script>
+	<!--scrollbar-->
+	<script>
+		// When the user scrolls down 20px from the top of the document, slide down the navbar
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			document.getElementById("navbar-spy").style.top = "0";
+			 mybutton.style.display = "block";
+		  } else {
+			document.getElementById("navbar-spy").style.top = "-60px";
+			 mybutton.style.display = "none";
+		  }
+		}
+	</script>
 	<!--typing-->
-	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"> </script>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 	<script>
 		var typed = new Typed('#Type-Effect', {
   // Waits 1000ms after typing "First"
@@ -293,7 +345,7 @@
 	<script>
 		$(document).ready(function(){
     // filter
-    $('nav a').on('click', function(event){
+    $('#myproject nav a').on('click', function(event){
         event.preventDefault();
         // current class
         $('nav li.current').removeClass('current');
@@ -352,11 +404,13 @@
                 }
             }
             
-        }); 
-    })
-})
-Đoạn c
+        });
 	</script>
+	<!--AOS-->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	  <script>
+		AOS.init();
+	  </script>
 </body>
 </html>
 

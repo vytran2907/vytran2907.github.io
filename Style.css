@@ -3,6 +3,33 @@
 	padding: 0;
 	margin: 0;
 }
+#mybtn{
+	display: none ;
+	position: fixed;
+	z-index: 99;
+	cursor: pointer;
+	bottom: 50px;
+	right:50px;
+	transition: transform .2s;
+	background-color: #FEC229 !important;
+	border: none !important;
+}
+
+.btn-decor:hover{
+	transform: scale(1.25);
+}
+#navbar-spy{
+	position: fixed;
+	top:-60px;
+	transition: top 0.3s;
+}
+#navbar-spy a{
+	color:gray;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	color:white !important;
+	background-color: #FEC229!important;
+}
 .scroll-downs {
   position: absolute;
   top: 80%;
@@ -63,9 +90,9 @@
 
 .line {
 	position: absolute;
-	border-left: 0.5px solid black;
+	border-left: 0.5px solid lightgrey;
 	height: 120px;
-	margin-top: 5%
+	margin-top: 5%;
 }
 
 .vertical-text {  
@@ -234,51 +261,25 @@ textarea{
             animation-timing-function: ease-in;
     opacity: 1;
   }
-  24% {
-    opacity: 1;
-  }
-  40% {
-    -webkit-transform: translateY(-24px);
-            transform: translateY(-24px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  65% {
-    -webkit-transform: translateY(-12px);
-            transform: translateY(-12px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  82% {
-    -webkit-transform: translateY(-6px);
-            transform: translateY(-6px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  93% {
-    -webkit-transform: translateY(-4px);
-            transform: translateY(-4px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  25%,
-  55%,
-  75%,
-  87% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
   100% {
     -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+            transform: translateY(45px);
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
     opacity: 1;
   }
 }
-
-.animate__heartBeat {
-	--animate-duration: 5s;
+.btn-fix {
+	border: 2px solid white !important;
+	border-radius: 30px !important;
 }
+.zoom {
+	transition: transform .2s;
+}
+.parent:hover .zoom,
+.parent:focus .zoom{
+	transform: scale(1.15)
+}
+
+
+

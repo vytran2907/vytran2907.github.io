@@ -2,189 +2,361 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
-<link href="Style.css" rel="stylesheet" type="text/css">
-	<!-- CSS only -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<title>Bai-6</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
 <!-- JS, Popper.js, and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!--fontawesome-->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<!--filter-->
+<script src="jquery-2.1.4.min.js"></script>
+<!--animate-->	
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
 </head>
+
 <body>
-<!--	navigation-->
-	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="#">
-				<h2 class="h4 font-weight-normal ml-5">ID TUẤN KIỆT</h2>
-			</a>
-			<button class="btn btn-primary btn-lg mr-5">Sign in</button>
+	<!--hello-->
+	<div class="container-fluid bg">
+		<div class="scroll-downs">
+		  <div class="mousey">
+			<div class="scroller"></div>
+		  </div>
 		</div>
-	</nav>
-	
-<!--	Banner-->
-	<div class="banner1 text-center">
-  		<div class="container-fluid" style="width:100%">
-			<div class="mx-auto" style="width:700px">
-				<h1 class="text-color">Build a landing page for your business <br> or project and generate more leads!</h1>
+		<div class="row">
+			<div class="col-6 text-white">
+				<div class="text-decorate">
+				<h1>Hello !</h1>
+				<h1 class="display-3 font-weight-normal">I'm <span id="Type-Effect"></span></h1>
+				<p>A Graphic Designer from Viet Nam</p>
+				<button class="btn btn-outline-light font-weight-bold">Hire Me!</button>
+				</div>
+			</div>
+			<div class="col-6">
+				<img src="img/Circle.png" width="90%" class="fix-position-1 fade-in-right">
+				<img src="img/1.png" width="73%" class="fix-position-2 animate__animated animate__slideInUp">
+			</div>
+		</div>
+	</div>
+	<!--introduce-->
+	<div class="container-fluid pt-5">
+		<div class="row no-gutters">
+			<div class="col-6">
+			<img src="img/Asset 5.png" width="100%">
+		</div>
+		<div class="col-1 pt-5 pl-5">
+			<div class="line"></div>
+			<h4 class="vertical-text">About me</h4>
+		</div>
+		
+		<img src="img/Cir-dark.png" width="20%" class="circle-dark animate__animated animate__fadeInDown">
+		<div class="col-5 my-auto">
+			<div class="pt-5 col-10 resize-text">
+				<h1>Need Creative Design?</h1>
+				<h1>I can Help You!</h1>
+				<p>Graphic working in design field for 2 years so far, specialized in Branding and digital designs. These are the words we live by in everything we do. Every story we tell, every brand we build, and every interaction we create must not only look beautiful. beautifully, too.</p>
 				<br>
-				<div class="row">
-					<div class="col-md-8 ml-3">
-						<input class="form-control" type="email" placeholder="Enter your email">
-					</div>
-					<div class="col mr-3">
-						<button class="btn btn-primary btn-block" type="button">Sign up!</button>
-					</div>
-				</div>
-			</div>
-	  	</div>
-  	</div>
-	
-<!--	icon-->
-	<div class="icon text-center">
-		<div class="container mx-auto icon-posi">
-			<div class="row">
-				<div class="col-sm-12 col-md-4">
-					<i class="fa fa-television text-primary icon-size mb-3"></i>
-					<h2>Fully Responsive</h2>
-					<p class="text-size">This theme will look great on any device, no matter the size!</p>
-				</div>
-				<div class="col-sm-12 col-md-4">
-					<i class="fa fa-database text-primary icon-size mb-3"></i>
-					<h2>Bootstrap 4 Ready</h2>
-					<p class="text-size">Featuring the latest build of the new Bootstrap 4 framework!</p>
-				</div>
-				<div class="col-sm-12 col-md-4">
-					<i class="fa fa-check text-primary icon-size mb-3"></i>
-					<h2>Easy to Use</h2>
-					<p class="text-size">Ready to use with your own content, or customize the source files!</p>
-				</div>
+				<h5>You can follow me also here</h5>
+				<a href="#">
+					<i class="fa fa-facebook-official"></i>	
+				</a>
+				<a href="#">
+					<i class="fa fa-linkedin-square"></i>	
+				</a>
+				<a href="#">
+					<i class="fa fa-instagram"></i>	
+				</a>
+				<a href="#">
+					<i class="fa fa-behance-square"></i>	
+				</a>
 			</div>
 		</div>
+		</div>
 	</div>
-	
-<!--img and info-->
-	<div class="container-fluid p-0">
+	<!--my skill-->
+	<div class="container-fluid pt-5">
 		<div class="row no-gutters">
-			<div class="col-sm-12 col-md-6 my-auto">
-				<div class="fully"><h2>Fully Responsive Design</h2>
-				<p>When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively! When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p></div>
+			<div class="col-1 pl-5">
+				<div class="line"></div>
+			<h4 class="vertical-text">My Skill</h4>
 			</div>
-			<div class="col-sm-12 col-md-6">
-				<img src="Src/bg-showcase-1.jpg" width="100%">
+			<div class="col-5">
+				<h1 class="col-8">What My Design Skills Included</h1>
+				<p class="col-10">
+					These are the words we live by in everything we do. Every story we tell, every brand we build, and every interaction we create must not only look beautiful.
+				</p>
+				<!--skillbar-->
+				 <div id="skill-bar-wrapper" class="col-10">
+						Photoshop<span style="float:right;">80%</span>
+					  <div class="skillbar-container clearfix" data-percent="80%">
+						<div class="skills" style="background:#FECE51;"></div>
+              		  </div>
+					 	Illustrator<span style="float:right;">75%</span>
+					  <div class="skillbar-container clearfix" data-percent="75%">
+						<div class="skills" style="background:#FECE51;"></div>
+              		  </div>
+					 	Skectch<span style="float:right;">40%</span>
+					  <div class="skillbar-container clearfix" data-percent="40%">
+						<div class="skills" style="background:#FECE51;"></div>
+              		  </div>
+					 	After Effect<span style="float:right;">51%</span>
+					  <div class="skillbar-container clearfix" data-percent="51%">
+						<div class="skills" style="background:#FECE51;"></div>
+              		  </div>
+					 	Indesign<span style="float:right;">60%</span>
+					  <div class="skillbar-container clearfix" data-percent="60%">
+						<div class="skills" style="background:#FECE51;"></div>
+              		  </div>
+					 	Dreamweaver<span style="float:right;">50%</span>
+					  <div class="skillbar-container clearfix" data-percent="50%">
+						<div class="skills" style="background:#FECE51;"></div>
+              		  </div>
+				</div>
 			</div>
-		</div>
-		<div class="row no-gutters">
-			<div class="col-sm-12 col-md-6 ">
-				<img src="Src/bg-showcase-2.jpg" width="100%">
-			</div>
-			<div class="col-sm-12 col-md-6 my-auto">
-				<div class="fully"><h2>Fully Responsive Design</h2>
-				<p>When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively! When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p></div>
-			</div>
-		</div>
-		<div class="row no-gutters">
-			<div class="col-sm-12 col-md-6 my-auto">
-				<div class="fully"><h2>Fully Responsive Design</h2>
-				<p>When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively! When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p></div>
-			</div>
-			<div class="col-sm-12 col-md-6">
-				<img src="Src/bg-showcase-3.jpg" width="100%">
-			</div>
-		</div>
-	</div>
-	
-<!--feedbacks-->
-	<div class="feedback text-center">
-		<div class="container feebback-1 text-center">
-			<div>
-				<h1 class="mb-4">What people are saying...</h1>
-				<div class="row">
-					<div class="col-sm-12 col-md-4 text-center">
-						<img src="Src/testimonials-1.jpg" alt="" class="rounded-circle mb-3" width="60%">
-						<h3>Margaret E.</h3>
-						<p>"This is fantastic! Thanks so much guys!"</p>
+			<div class="col-6 row justify-content-around">
+				<div class="col-6 m-3 bg-color text-center row">
+					<div class="col-12 my-auto">
+						<i class="fa fa-crop"></i>
+						<h3 class="text-white">Graphic design</h3>	
 					</div>
-					<div class="col-sm-12 col-md-4 text-center">
-						<img src="Src/testimonials-2.jpg" alt="" class="rounded-circle mb-3" width="60%">
-						<h3>John D.</h3>
-						<p>"This is fantastic! Thanks so much guys!"</p>
+				</div>
+				<div class="col-4 m-3 bg-color text-center row">
+					<div class="col-12 my-auto">
+						<i class="fa fa-film"></i>
+						<h3 class="text-white">Animation</h3>	
 					</div>
-					<div class="col-sm-12 col-md-4 text-center">
-						<img src="Src/testimonials-3.jpg" alt="" class="rounded-circle mb-3" width="60%">
-						<h3>Jéccica</h3>
-						<p>"This is fantastic! Thanks so much guys!"</p>
+				</div>
+				<div class="col-4 m-3 bg-color text-center row"> 
+					<div class="col-12 my-auto">
+						<i class="fa fa-code"></i>
+						<h3 class="text-white">HTML/CSS</h3>	
+					</div>
+				</div>
+				<div class="col-6 m-3 bg-color text-center row">
+					<div class="col-12 my-auto">
+						<i class="fa fa-pencil"></i>
+						<h3 class="text-white">Drawing</h3>	
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	
-<!--Banner 2	-->
-	<div class="banner2 text-center">
-  		<div class="container-fluid" width="100%">
-			<div class="mx-auto" style="width:700px">
-				<h1 class="text-color">Ready to get started? Sign up now!</h1>
-				<br>
-				<div class="row">
-					<div class="col-md-8 ml-3">
-						<input class="form-control" type="email" placeholder="Enter your email">
-					</div>
-					<div class="col mr-3">
-						<button class="btn btn-primary btn-block" type="button">Sign up!</button>
-					</div>
-				</div>
-			</div>
-	  	</div>
-  	</div>
-	
-<!--footer-->
-	<div class="footer text-center">
-		<div class="container">
-			<div class="row justify-content-between">
-				<div class="col-sm-12 col-md-6 h-100 text-lg-left">
-					<ul class="list-inline">
-						<li class="list-inline-item">
-							<a href="#">About</a>
-						</li >
-						<li class="list-inline-item">.</li>
-						<li class="list-inline-item">
-							<a href="#">Contact</a>
-						</li>
-						<li class="list-inline-item">.</li>
-						<li class="list-inline-item">
-							<a href="#">Terms of Use</a>
-						</li >
-						<li class="list-inline-item">.</li>
-						<li class="list-inline-item">
-							<a href="#">Privacy Policy</a>
-						</li>
-					</ul>
-					<p class="small text-muted">© Your Website 2020. All Rights Reserved.</p>
-				</div>
-				<div class="col-sm-12 col-md-6 p-0">
-					<div class="row justify-content-end">
-						<div class="col-4-auto icon-2 text-primary">
-							<a href="#">
-                          		<i class="fa fa-facebook-official"></i>
-							</a>
-						</div>
-						<div class="col-4-auto ml-2 icon-2 text-primary">
-							<a href="#">
-                          		<i class="fa fa-twitter-square"></i>
-							</a>
-						</div>
-						<div class="col-4-auto ml-2 icon-2 text-primary">
-							<a href="#">
-                          		<i class="fa fa-instagram" ></i>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
+	<!--filter-->
+        <div class="container portfolio section text-center pt-5">
+			<nav class="filters">
+				<h3 class="text-black-50">Meet my projects</h3>
+                <ul>
+                    <li class="current"><a href="#">All projects</a></li>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Branding</a></li>
+                    <li><a href="#">Illustration</a></li>
+                    <li><a href="#">Social Post</a></li>              
+                </ul>
+			</nav>
+            <div id="projects" class="text-ul text-center">
+                <h1 class="heading">All Projects</h1>
+                <ul id="gallery" class="row is-table-row">
+                    <li class="web-design illustration branding col-4 p-4"><a href="#"><img src="img/Mobile-3.png" class="rounded" width="100%"></a></li>
+                    <li class="branding social-post col-4 p-4"><a href="#"><img src="img/mockup-3.jpg" width="100%" class="rounded"></a></li>
+                    <li class="web-design illustration col-4 p-4"><a href="#"><img src="img/2020-08-24_054858.png" width="100%" class="rounded"></a></li>
+                    <li class="web-design col-4 p-4"><a href="#"><img src="img/2020-08-24_052013.png" width="100%" class="rounded"></a></li>
+                    <li class="web-design col-4 p-4"><a href="#"><img src="img/2020-08-24_052200.png" width="100%" class="rounded"></a></li>
+                    <li class="branding social-post col-4 p-4"><a href="#"><img src="img/2.jpg" width="100%" class="rounded"></a></li>
+                    <li class="branding social-post col-4 p-4"><a href="#"><img src="img/3-300x300.jpg" width="100%" class="rounded"></a></li>
+                    <li class="illustration branding col-4 p-4"><a href="#"><img src="img/UpUp1K.jpg" width="100%" class="rounded"></a></li>
+					<li class="illustration social-post col-4 p-4"><a href="#"><img src="img/Banner-2.png" width="100%" class="rounded"></a></li> 
+					<li class="illustration social-post col-4 p-4"><a href="#"><img src="img/Done-23.png" width="100%" class="rounded"></a></li>
+					<li class="illustration branding col-4 p-4"><a href="#"><img src="img/S.O.C-Trung-Thu-03.jpg" width="100%" class="rounded"></a></li>
+					<li class="illustration branding col-4 p-4"><a href="#"><img src="img/S.O.C-Tet-02.jpg" width="100%" class="rounded"></a></li>
+                </ul>
+            </div>
+            <!-- modal gallery -->
+            <div class="gallery text-center">
+                <a class="close" href="#">
+                    <i>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    </i>
+                </a>
+                <img src="">
+            </div>
+        </div>
+	<!--get in touch-->
+	<div class="container mt-5" id="message">
+	<div class="text-center col-9 mx-auto">
+		<h3 class="font-weight-bold">Get In Tounch</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ul</p>
+	</div>
+	<div class="row justify-content-around mt-5 text-center">
+		<div class="col-2 text-fix">
+			<i class="fa fa-user-circle-o "></i>
+			<a href="#"><p>0934.919.014</p></a>
+		</div>
+		<div class="col-2 text-fix">
+			<i class="fa  fa-telegram  "></i>
+			<a href="#"><p>tntvy2907@gmail.com</p></a>
+		</div>
+		<div class="col-2 text-fix">
+			<i class="fa fa-gg-circle  "></i>
+			<a href="#"><p>leolee2907@gmail.com</p></a>
 		</div>
 	</div>
+		<form class="col-12 mx-auto mt-5 row">
+	<div class="col-6">
+  <label for="fname">Name</label>
+  <input type="text" id="fname" name="fname" class="col-12 input">
+		</div>
+	<div class="col-6">
+  <label for="lname">Email</label>
+  <input type="text" id="lname" name="lname" class="col-12">
+		</div>
+<div class="col-12 mt-5">
+  <label for="lname">Message</label>
+	<br>
+  <textarea></textarea>
+</div>
+<button class="btn btn-outline-dark style-btn mx-auto mt-5">Send a Message</button>
+</form>
+</div>
+<div class="container-fluid bg-dark mt-5">
+	<div class="col-2 row justify-content-around mx-auto text-white pt-5">
+		<div class="col-1">
+					<i class="fa fa-facebook"></i>
+				</div>
+				<div class="col-1">
+					<i class="fa fa-twitter"></i>
+				</div>
+				<div class="col-1">
+					<i class="fa fa-instagram"></i>
+				</div>
+				<div class="col-1">
+					<i class="fa fa-google-plus"></i>
+				</div>
+				<div class="col-1">
+					<i class="fa fa-behance"></i>
+				</div>
+				<div class="col-1">
+					<i class="fa fa-chrome"></i>
+				</div>
+	</div>
+		<div class="col-12 text-center text-muted p-3">
+			<p>Copyright @2020 VyTran</p>
+		</div>
+	
+	</div>
+	<!--java-->
+	<!--typing-->
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"> </script>
+	<script>
+		var typed = new Typed('#Type-Effect', {
+  // Waits 1000ms after typing "First"
+  strings: ['Vy Tran','Designer'],
+			typeSpeed:100,
+			backSpeed:100,
+			loop:true,
+});
+		
+	</script>
+	<!--skill bar-->
+	<script>
+		 $(window).scroll(function() {
+    var hT = $('#skill-bar-wrapper').offset().top,
+        hH = $('#skill-bar-wrapper').outerHeight(),
+        wH = $(window).height(),
+        wS = $(this).scrollTop();
+    if (wS > (hT+hH-1.4*wH)){
+        jQuery(document).ready(function(){
+            jQuery('.skillbar-container').each(function(){
+                jQuery(this).find('.skills').animate({
+                    width:jQuery(this).attr('data-percent')
+                }, 3000);
+            });
+        });
+    }
+ });
+	</script>
+	<!--gallery-->
+		<!--active btn-->
+	<script>
+		$('.filters ul li').click(function(){
+  $('.filters ul li').removeClass('active');
+  $(this).addClass('active');
+	</script>
+		<!--img-->
+	<script>
+		$(document).ready(function(){
+    // filter
+    $('nav a').on('click', function(event){
+        event.preventDefault();
+        // current class
+        $('nav li.current').removeClass('current');
+        $(this).parent().addClass('current');
+
+        // set new heading
+        $('h1.heading').text($(this).text());
+        
+        // filter link text
+        var category = $(this).text().toLowerCase().replace(' ', '-');
+        
+        // remove hidden class if "all" is selected
+        if(category == 'all-projects'){
+            $('ul#gallery li:hidden').fadeIn('slow').removeClass('hidden');
+        } else {
+            $('ul#gallery li').each(function(){
+               if(!$(this).hasClass(category)){
+                   $(this).hide().addClass('hidden');
+               } else {
+                   $(this).fadeIn('slow').removeClass('hidden');
+               }
+            });
+        }
+        return false;        
+    });
+    // lightbox
+    $('ul#gallery a').on('click', function(event){
+        event.preventDefault();
+        var link = $(this).find('img').attr('src');
+        $('.gallery img').attr('src', '');
+        $('.gallery img').attr('src', link);
+        $('.gallery').fadeIn('500');
+    });
+    // close lightbox
+    $('.gallery').on('click', function(event){
+        event.preventDefault();
+        $('.gallery').fadeOut('500');
+    });
+});
+	</script>
+	<script>
+		   var arrAnimationIn = ['fadeIn', 'fadeInLeft', 'fadeInRight'];
+ 
+    $(window).scroll(function() {
+        /* Check the location of each desired element */
+        $('.animate__animated').each( function(i){
+            
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ) {
+                if ($(this)[0].classList.value.indexOf('fadeIn') < 0) {
+                    var item = arrAnimationIn[Math.floor(Math.random()*arrAnimationIn.length)];
+                    $(this).addClass(item);
+                }
+            }
+            
+        }); 
+    })
+})
+Đoạn c
+	</script>
 </body>
 </html>
+

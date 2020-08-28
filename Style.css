@@ -288,19 +288,27 @@ textarea{
 @media (max-width:768px){
 	.bg{
 		height:500px;
+		-webkit-height:500px;
 	}
     .fix-position-1{
         width: 450px !important;
         margin-left: 35%;
+		-webkit-width: 450px !important;
+        -webkit-margin-left: 35%;
     }
     .text-decorate{
         position: absolute;
         padding-top: 15%;
         padding-left: 20%;
         z-index:2;
+		-webkit-position: absolute;
+        -webkit-padding-top: 15%;
+        -webkit-padding-left: 20%;
+        -webkit-z-index:2;
     }
     .scroll-downs{
         display: none !important;
+		-webkit-display: none !important;
     }
 }
 @media (max-width:415px){
@@ -308,28 +316,39 @@ textarea{
         width: 350px !important;
         margin-left: 35%;
         margin-top:33%;
+		-webkit-width: 350px !important;
+        -webkit-margin-left: 35%;
+        -webkit-margin-top:33%;
     }
     .text-decorate{
         padding-top: 57%;
         padding-left: 6%;
+		-webkit-padding-top: 57%;
+        -webkit-padding-left: 6%;
     }
     .text-decorate h1,p{
         font-size:40px;
+		-webkit-font-size:40px;
     }
     .btn-fix{
         display:none !important;
+		-webkit-display:none !important;
     }
     #navbar-spy{
         top:-136px !important;
+		-webkit-top:-136px !important;
     }
     .resize-text h1{
         font-size: 20px;
+		-webkit-font-size: 20px;
     }
     .resize-text p{
         font-size:15px;
+		-webkit-font-size:15px;
     }
     .resize-text{
         margin:0px auto;
+		-webkit-margin:0px auto;
     }
     .line{
         position: absolute;
@@ -337,27 +356,41 @@ textarea{
 	    width: 120px;
 	    margin-top: 5%;
         border-left: none !important;
+		-webkit-position: absolute;
+	    -webkit- border-top: 0.5px solid lightgrey;
+	    -webkit-width: 120px;
+	    -webkit-margin-top: 5%;
+        -webkit-border-left: none !important;
     }
     .vertical-text {  
 	writing-mode: horizontal-tb !important;
     transform:scale(1)!important;
     margin-top: 10%;
+		-webkit-writing-mode: horizontal-tb !important;
+    -webkit-transform:scale(1)!important;
+    -webkit-margin-top: 10%;
     }
     .center-div{
        display: none !important;
+		-webkit-display: none !important;
     }
     .filters{
         display: none !important;
+		-webkit-display: none !important;
     }
     .icon-resize i{
         font-size:30px !important;
+		-webkit-font-size:30px !important;
     }
     .icon-resize p{
         margin-bottom:10%;
         font-size:15px !important;
+		-webkit-margin-bottom:10%;
+        -webkit-font-size:15px !important;
     }
     .copyright p{
         font-size:15px !important;
+		-webkit-font-size:15px !important;
     }
 }
 

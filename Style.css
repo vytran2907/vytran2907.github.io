@@ -291,9 +291,9 @@ textarea{
 		-webkit-height:500px;
 	}
     .fix-position-1{
-        width: 450px !important;
+        width: 450px ;
         margin-left: 35%;
-		-webkit-width: 450px !important;
+		-webkit-width: 450px;
         -webkit-margin-left: 35%;
     }
     .text-decorate{
@@ -313,10 +313,10 @@ textarea{
 }
 @media (max-width:415px){
     .fix-position-1{
-        width: 350px !important;
+        width: 350px ;
         margin-left: 35%;
         margin-top:33%;
-		-webkit-width: 350px !important;
+		-webkit-width: 350px;
         -webkit-margin-left: 35%;
         -webkit-margin-top:33%;
     }

@@ -317,12 +317,12 @@ textarea{
 	-webkit-height:500px;
 	}
     .fix-position-1{
-        width: 350px ;
+        width: 230px ;
         margin-left: 35%;
         margin-top:33%;
 		-webkit-width: 350px;
         -webkit-margin-left: 35%;
-        -webkit-margin-top:33%;
+        -webkit-margin-top:50%;
     }
     .text-decorate{
         padding-top: 57%;

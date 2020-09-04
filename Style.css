@@ -312,6 +312,10 @@ textarea{
     }
 }
 @media (max-width:415px){
+    .bg{
+	height:500px;
+	-webkit-height:500px;
+	}
     .fix-position-1{
         width: 350px ;
         margin-left: 35%;
